@@ -3,6 +3,38 @@ import { Services } from "@/types";
 export const SERVICES: Services[] = [
     {
         id: 1,
+        imgSrc: "/images/service-icons/service-icon-27.webp",
+        name: "Teeth Implant",
+        text: "Permanent solution to replace missing teeth with natural strength.",
+        href: "/#teeth-implant",
+        idStr: "teeth-implant",
+    },
+    {
+        id: 2,
+        imgSrc: "/images/service-icons/service-icon-11.webp",
+        name: "Dental Crown & Bridge",
+        text: "Custom caps to protect and restore damaged or weakened teeth.",
+        href: "/#dental-crown",
+        idStr: "dental-crown",
+    },
+    {
+        id: 3,
+        imgSrc: "/images/service-icons/service-icon-39.webp",
+        name: "Prosthetic Eye",
+        text: "Custom ocular prosthetics to replace and restore absent or disfigured eyes.",
+        href: "/#prosthetic-eye",
+        idStr: "prosthetic-eye",
+    },
+    {
+        id: 4,
+        imgSrc: "/images/service-icons/service-icon-40.webp",
+        name: "Complete Denture",
+        text: "Full removable prosthetics to replace and restore an entire set of missing teeth.",
+        href: "/#complete-denture",
+        idStr: "complete-denture",
+    },
+    {
+        id: 5,
         imgSrc: "/images/service-icons/service-icon-1.webp",
         name: "Dental Checkup",
         text: "Routine examination and cleaning to maintain healthy teeth and gums.",
@@ -10,7 +42,7 @@ export const SERVICES: Services[] = [
         idStr: "dental-checkup",
     },
     {
-        id: 2,
+        id: 6,
         imgSrc: "/images/service-icons/service-icon-2.webp",
         name: "RVG X-RAY",
         text: "Digital X-ray technology providing instant, high-resolution images with 80% less radiation than traditional film.",
@@ -18,7 +50,7 @@ export const SERVICES: Services[] = [
         idStr: "x-ray",
     },
     {
-        id: 3,
+        id: 7,
         imgSrc: "/images/service-icons/service-icon-4.webp",
         name: "Gingivitis Periodontitis",
         text: "Specialized treatment for gum disease to restore healthy gums and prevent tooth loss.",
@@ -26,7 +58,7 @@ export const SERVICES: Services[] = [
         idStr: "gingivitis-periodontitis",
     },
     {
-        id: 4,
+        id: 8,
         imgSrc: "/images/service-icons/service-icon-5.webp",
         name: "Restoration/Filling",
         text: "Tooth-colored fillings to repair cavities and restore natural appearance.",
@@ -34,7 +66,7 @@ export const SERVICES: Services[] = [
         idStr: "composite-and-gic-restoration",
     },
     {
-        id: 5,
+        id: 9,
         imgSrc: "/images/service-icons/service-icon-6.webp",
         name: "RCT",
         text: "Root canal treatment to save infected teeth and eliminate pain.",
@@ -42,7 +74,7 @@ export const SERVICES: Services[] = [
         idStr: "rct",
     },
     {
-        id: 6,
+        id: 10,
         imgSrc: "/images/service-icons/service-icon-7.webp",
         name: "Oral Surgery",
         text: "Surgical procedures for tooth extraction and complex dental treatments.",
@@ -50,7 +82,7 @@ export const SERVICES: Services[] = [
         idStr: "oral-surgery",
     },
     {
-        id: 7,
+        id: 11,
         imgSrc: "/images/service-icons/service-icon-8.webp",
         name: "RPD, CD",
         text: "Custom dentures and bridges to replace missing teeth and restore function.",
@@ -58,7 +90,7 @@ export const SERVICES: Services[] = [
         idStr: "cd-rpd",
     },
     {
-        id: 8,
+        id: 12,
         imgSrc: "/images/service-icons/service-icon-9.webp",
         name: "Extraction",
         text: "Safe tooth removal procedures for damaged or problematic teeth.",
@@ -66,7 +98,7 @@ export const SERVICES: Services[] = [
         idStr: "extraction",
     },
     {
-        id: 9,
+        id: 13,
         imgSrc: "/images/service-icons/service-icon-10.webp",
         name: "Orthodontic Treatment",
         text: "Braces and aligners to straighten teeth and correct bite alignment.",
@@ -74,15 +106,7 @@ export const SERVICES: Services[] = [
         idStr: "orthodontic-treatment",
     },
     {
-        id: 10,
-        imgSrc: "/images/service-icons/service-icon-11.webp",
-        name: "Dental Crown",
-        text: "Custom caps to protect and restore damaged or weakened teeth.",
-        href: "/#dental-crown",
-        idStr: "dental-crown",
-    },
-    {
-        id: 11,
+        id: 14,
         imgSrc: "/images/service-icons/service-icon-14.webp",
         name: "Scalling & Polishing",
         text: "Professional plaque and tartar removal to maintain healthy gums and teeth.",
@@ -90,7 +114,7 @@ export const SERVICES: Services[] = [
         idStr: "scaling",
     },
     {
-        id: 12,
+        id: 15,
         imgSrc: "/images/service-icons/service-icon-19.webp",
         name: "Flouride Application",
         text: "Professional treatment to strengthen tooth enamel and prevent cavities effectively.",
@@ -98,7 +122,7 @@ export const SERVICES: Services[] = [
         idStr: "flouride-application",
     },
     {
-        id: 13,
+        id: 16,
         imgSrc: "/images/service-icons/service-icon-6.webp",
         name: "Pulpectomy",
         text: "Root canal treatment to save infected teeth and restore healthy function",
@@ -106,7 +130,7 @@ export const SERVICES: Services[] = [
         idStr: "pulpectomy",
     },
     {
-        id: 14,
+        id: 17,
         imgSrc: "/images/service-icons/service-icon-9.webp",
         name: "Surgical Extraction",
         text: "Advanced removal of complex or impacted teeth with specialized techniques.",
@@ -114,7 +138,7 @@ export const SERVICES: Services[] = [
         idStr: "surgical-extraction",
     },
     {
-        id: 15,
+        id: 18,
         imgSrc: "/images/service-icons/service-icon-26.webp",
         name: "Composite Veneering",
         text: "Tooth-colored resin layering to correct imperfections and create a natural, beautiful smile.",
@@ -122,7 +146,7 @@ export const SERVICES: Services[] = [
         idStr: "composite-veneering",
     },
     {
-        id: 16,
+        id: 19,
         imgSrc: "/images/service-icons/service-icon-27.webp",
         name: "Post & Core",
         text: "Metal or fiber post anchored in root canal to rebuild and strengthen severely damaged teeth.",
@@ -130,7 +154,7 @@ export const SERVICES: Services[] = [
         idStr: "post-and-core",
     },
     {
-        id: 17,
+        id: 20,
         imgSrc: "/images/service-icons/service-icon-29.webp",
         name: "Space Maintainer",
         text: "Device that holds space for permanent teeth after premature loss of baby teeth.",
@@ -138,7 +162,7 @@ export const SERVICES: Services[] = [
         idStr: "space-maintainer",
     },
     {
-        id: 18,
+        id: 21,
         imgSrc: "/images/service-icons/service-icon-30.webp",
         name: "Splinting",
         text: "Stabilizing loose or mobile teeth by bonding them together for support and strength.",
@@ -146,7 +170,7 @@ export const SERVICES: Services[] = [
         idStr: "splitting",
     },
     {
-        id: 19,
+        id: 22,
         imgSrc: "/images/service-icons/service-icon-31.webp",
         name: "Obturator",
         text: "Prosthetic device that closes openings in the palate to restore speech and swallowing.",
@@ -154,7 +178,7 @@ export const SERVICES: Services[] = [
         idStr: "obturator",
     },
     {
-        id: 20,
+        id: 23,
         imgSrc: "/images/service-icons/service-icon-32.webp",
         name: "Tooth grinding",
         text: "Treatment for teeth grinding and clenching using protective guards and therapy methods.",
@@ -162,7 +186,7 @@ export const SERVICES: Services[] = [
         idStr: "tooth-grinding",
     },
     {
-        id: 21,
+        id: 24,
         imgSrc: "/images/service-icons/service-icon-33.webp",
         name: "Operculectomy",
         text: "Surgical removal of gum tissue covering a partially erupted tooth to prevent infection.",
@@ -170,7 +194,7 @@ export const SERVICES: Services[] = [
         idStr: "operculectomy",
     },
     {
-        id: 22,
+        id: 25,
         imgSrc: "/images/service-icons/service-icon-34.webp",
         name: "Apicetomy",
         text: "Surgical removal of tooth root tip and infected tissue when root canal fails.",
@@ -178,7 +202,7 @@ export const SERVICES: Services[] = [
         idStr: "apicetomy",
     },
     {
-        id: 23,
+        id: 26,
         imgSrc: "/images/service-icons/service-icon-35.webp",
         name: "Cyst Enucieation",
         text: "Surgical removal of cysts from jaw or oral tissues to prevent recurrence and infection.",
@@ -186,7 +210,7 @@ export const SERVICES: Services[] = [
         idStr: "cyst-enucieation",
     },
     {
-        id: 24,
+        id: 27,
         imgSrc: "/images/service-icons/service-icon-36.webp",
         name: "Biopsy",
         text: "Tissue sample removal from oral lesions for laboratory analysis and diagnosis purposes.",
@@ -194,7 +218,7 @@ export const SERVICES: Services[] = [
         idStr: "biopsy",
     },
     {
-        id: 25,
+        id: 28,
         imgSrc: "/images/service-icons/service-icon-37.webp",
         name: "OSMF Management",
         text: "Treatment for oral submucous fibrosis using injections, therapy, and lifestyle modifications.",
@@ -202,19 +226,11 @@ export const SERVICES: Services[] = [
         idStr: "osmf-management",
     },
     {
-        id: 26,
+        id: 29,
         imgSrc: "/images/service-icons/service-icon-38.webp",
         name: "Incision & Drainage",
         text: "Surgical opening and draining of abscesses to relieve pain and remove infected fluid.",
         href: "/#incision-and-drainage",
         idStr: "incision-and-drainage",
-    },
-    {
-        id: 27,
-        imgSrc: "/images/service-icons/service-icon-27.webp",
-        name: "Teeth Implant",
-        text: "Permanent solution to replace missing teeth with natural strength.",
-        href: "/#teeth-implant",
-        idStr: "teeth-implant",
     },
 ];

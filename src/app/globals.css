@@ -3,7 +3,7 @@
 @layer base {
   :root {
     /* COLORS */
-    --soft-coral: hsl(10, 75%, 75%);
+    /* --soft-coral: hsl(10, 75%, 75%);
     --vibrant-coral: hsl(10, 80%, 62%);
     --vibrant-coral_30: hsla(10, 80%, 62%, 0.3);
     --bright-teal: hsl(175, 65%, 45%);
@@ -19,7 +19,58 @@
     --black_8: hsla(0, 0%, 0%, 0.08);
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
-    --charcoal-blue: hsl(185, 18%, 22%); 
+    --charcoal-blue: hsl(185, 18%, 22%);  */
+
+    /* Changed: coral hues → blue hues (hsl ~210–225 range) */
+--soft-coral: hsl(215, 75%, 75%);
+
+/* Changed: vibrant coral → vibrant blue */
+--vibrant-coral: hsl(215, 80%, 62%);
+
+/* Changed: vibrant coral with alpha → vibrant blue with alpha */
+--vibrant-coral_30: hsla(215, 80%, 62%, 0.3);
+
+/* Changed: bright teal → bright blue */
+--bright-teal: hsl(210, 65%, 45%);
+
+/* Changed: deep teal → deep blue */
+--deep-teal: hsl(215, 70%, 30%);
+
+/* Changed: darkest teal → darkest blue */
+--darkest-teal: hsl(220, 75%, 22%);
+
+/* Changed: rich navy teal → rich navy blue */
+--rich-navy-teal: hsl(225, 80%, 18%);
+
+/* Changed: soft mint with alpha → soft blue with alpha */
+--soft-mint_50: hsla(210, 35%, 92%, 0.5);
+
+/* Changed: pale aqua → pale blue */
+--pale-aqua: hsl(210, 45%, 96%);
+
+/* Changed: teal gray → blue gray */
+--teal-gray: hsl(215, 18%, 48%);
+
+/* Changed: light seafoam → light blue */
+--light-seafoam: hsl(210, 30%, 90%);
+
+/* Changed: crisp cyan white → crisp blue white */
+--crisp-cyan-white: hsl(215, 35%, 98%);
+
+/* Unchanged: black with alpha */
+--black_10: hsla(0, 0%, 0%, 0.1);
+
+/* Unchanged: black with alpha */
+--black_8: hsla(0, 0%, 0%, 0.08);
+
+/* Unchanged: white */
+--white: hsl(0, 0%, 100%);
+
+/* Unchanged: black */
+--black: hsl(0, 0%, 0%);
+
+/* Changed: charcoal blue → slightly deeper blue-gray */
+--charcoal-blue: hsl(220, 18%, 22%);
 
     /* GRADIENT COLOR */
     --gradient: linear-gradient( 90deg, var(--bright-teal) 0%, var(--vibrant-coral) 100%);

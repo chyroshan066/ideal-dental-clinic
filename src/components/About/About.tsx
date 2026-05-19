@@ -25,16 +25,16 @@ export const About = memo(() => (
                 <p className="section-subtitle">About Us</p>
                 <h2 className="h2 section-title">We Care For Your Dental Health</h2>
                 <p className={`section-text ${styles.sectionText1}`}>
-                    Welcome to <b>Orchid Multispeciality Dental Clinic</b>, your trusted <b>best dental clinic in Nepal</b> located near Suncity, Kageshwori Manohara, Kathmandu, Nepal, and our sister branch at Namaste Hospital - First Floor, Damak, Jhapa, Nepal. As the premier choice for <b>dental care in Nepal</b>, we operate with the motto <i>&quot;Professional Dentist, Advanced Technology and Affordable Price&quot;</i>, committed to providing high-quality <b>dental care in Nepal</b> for every smile at both our convenient locations.
+                    Welcome to <b>M.G Dental Clinic & Implant Centre</b>, your trusted <b>best dental clinic in Kathmandu</b> located at Chapagaun Dobato, Lalitpur, Nepal. As the premier choice for <b>dental care in Kathmandu</b>, we operate with the motto <i>&quot;Professional Dentist, Advanced Technology and Affordable Price&quot;</i>, committed to providing high-quality <b>dental care in Kathmandu</b> for every smile at both our convenient locations.
                 </p>
                 <p className="section-text">
-                    Our team of experienced dentists across both <b>dental clinics in Kathmandu and Damak</b> offers a full range of treatments including <b>dental implants, braces, cosmetic dentistry, root canal, teeth whitening, orthodontics, gum treatment, oral surgery,</b> and <b>tooth extraction.</b> We also specialize in <b>pediatric dentistry,</b> ensuring gentle care for children, as well as <b>family dentist services</b> for all ages at both branches.
+                    Our team of experienced dentists at <b>dental clinic in Kathmandu</b> offers a full range of treatments including <b>dental implants, braces, cosmetic dentistry, root canal, teeth whitening, orthodontics, gum treatment, oral surgery,</b> and <b>tooth extraction.</b> We also specialize in <b>pediatric dentistry,</b> ensuring gentle care for children, as well as <b>family dentist services</b> for all ages.
                 </p>
                 <p className={`section-text ${styles.sectionText1}`}>
-                    At <b>Orchid Multispeciality Dental Clinic</b> in Kathmandu and Damak, recognized as the <b>best dental clinics in Nepal,</b> we combine modern technology with compassionate care to make treatments comfortable and accessible. Whether you need a routine <b>dental checkup, emergency dental care,</b> or advanced solutions for restoring your smile, both our clinics ensure the best outcomes at an <b>affordable price.</b>
+                    At <b>M.G Dental Clinic & Implant Centre</b> in Kathmandu, recognized as the <b>best dental clinics in Kathmandu,</b> we combine modern technology with compassionate care to make treatments comfortable and accessible. Whether you need a routine <b>dental checkup, emergency dental care,</b> or advanced solutions for restoring your smile, both our clinics ensure the best outcomes at an <b>affordable price.</b>
                 </p>
                 <p className="section-text">
-                    Choose <b>Orchid Multispeciality Dental</b> with locations in <b>Kathmandu and Damak</b> for the <b>best dentists in Nepal,</b> where healthy smiles begin with expert care and a personal touch at our trusted <b>dental clinics.</b> Visit the branch nearest to you for comprehensive dental solutions.
+                    Choose <b>M.G Dental Clinic</b> in <b>Kathmandu</b> for the <b>best dentists in Kathmandu,</b> where healthy smiles begin with expert care and a personal touch at our trusted <b>dental clinic.</b> Visit the clinic for comprehensive dental solutions.
                 </p>
 
             </div>

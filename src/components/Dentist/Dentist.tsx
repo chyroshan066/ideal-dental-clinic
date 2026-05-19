@@ -6,81 +6,73 @@ import { DENTISTS } from "@/constants";
 import { TitleHeader } from "../utility/TitleHeader";
 import styles from "./Dentist.module.css";
 
-const DentistCard = memo(({
-    imgSrc, name, ionIcon, position
-}: DentistType) => (
+const DentistCard = memo(
+  ({ imgSrc, name, ionIcon, position, position2 }: DentistType) => (
     <li className={styles.scrollbarItem}>
-        <div className={styles.doctorCard}>
-            <div
-                className={`img-holder ${styles.cardBanner}`}
-                style={{ "--width": "460", "--height": "500" } as React.CSSProperties}
-            >
-                <Image
-                    src={imgSrc}
-                    width={460}
-                    height={500}
-                    loading="lazy"
-                    alt={name}
-                    className="img-cover"
-                />
-            </div>
-            <h3 className="h3">
-                <a
-                    href="#"
-                    className={styles.cardTitle}
-                >
-                    {name}
-                </a>
-            </h3>
-            <p className={styles.cardSubtitle}>{position}</p>
-            <ul className={styles.cardSocialList}>
-
-                {ionIcon?.map((icon, index) => (
-                    <li key={index}>
-                        <a
-                            href={icon.ionIconLink}
-                            className={styles.cardSocialLink}
-                            target="_blank"
-                        >
-                            <IonIcon name={icon.ionIconName}></IonIcon>
-                        </a>
-                    </li>
-                ))}
-
-            </ul>
+      <div className={styles.doctorCard}>
+        <div
+          className={`img-holder ${styles.cardBanner}`}
+          style={{ "--width": "460", "--height": "500" } as React.CSSProperties}
+        >
+          <Image
+            src={imgSrc}
+            width={460}
+            height={500}
+            loading="lazy"
+            alt={name}
+            className="img-cover"
+          />
         </div>
+        <h3 className="h3">
+          <a href="#" className={styles.cardTitle}>
+            {name}
+          </a>
+        </h3>
+        <div className={styles.cardSubtitle}>
+          <p>{position}</p>
+          <p>{position2}</p>
+        </div>
+        {/* <p className={styles.cardSubtitle}>{position}</p>
+            <p className={styles.cardSubtitle}>{position2}</p> */}
+        <ul className={styles.cardSocialList}>
+          {ionIcon?.map((icon, index) => (
+            <li key={index}>
+              <a
+                href={icon.ionIconLink}
+                className={styles.cardSocialLink}
+                target="_blank"
+              >
+                <IonIcon name={icon.ionIconName}></IonIcon>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </li>
-));
+  ),
+);
 
 DentistCard.displayName = "DoctorCard";
 
 export const Dentist = memo(() => (
-    <section
-        className={`section ${styles.doctor}`}
-        aria-label="doctor"
-    >
-        <div className="custom-container">
+  <section className={`section ${styles.doctor}`} aria-label="doctor">
+    <div className="custom-container">
+      <TitleHeader title={"Our Doctors"} subTitle={"Best Expert Dentist"} />
 
-            <TitleHeader
-                title={"Our Doctors"}
-                subTitle={"Best Expert Dentist"}
-            />
-
-            <ul className={styles.hasScrollbar}>
-
-                {DENTISTS.map((dentist, index) => (
-                    <DentistCard
-                        key={index}
-                        imgSrc={dentist.imgSrc}
-                        name={dentist.name}
-                        ionIcon={dentist.ionIcon}
-                        position={dentist.position}
-                    />
-                ))}
-
-            </ul>
-        </div>
-    </section>
+      <ul className={styles.hasScrollbar}>
+        {DENTISTS.map((dentist, index) => (
+          <DentistCard
+            key={index}
+            imgSrc={dentist.imgSrc}
+            name={dentist.name}
+            ionIcon={dentist.ionIcon}
+            position={dentist.position}
+            position2={dentist.position2}
+          />
+        ))}
+      </ul>
+    </div>
+  </section>
 ));
 
 Dentist.displayName = "Dentist";

@@ -76,52 +76,35 @@ const poppins = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Orchid Multispeciality Dental Clinic - Advanced Dental Care in Nepal",
-  description: "Orchid Multispeciality Dental Clinic offers comprehensive dental care in Kathmandu & Damak, Nepal. Expert dentists providing treatments such as dental implants, braces, root canal therapy, cosmetic dentistry, teeth whitening, and preventive oral care in a modern, comfortable clinic.",
+  title: "M.G Dental Clinic & Implant Centre - Advanced Dental Care in Nepal",
+  description: "M.G Dental Clinic & Implant Centre offers comprehensive dental care in Kathmandu, Nepal. Expert dentists providing treatments such as dental implants, braces, root canal therapy, cosmetic dentistry, teeth whitening, and preventive oral care in a modern, comfortable clinic.",
   keywords: [
-    "Orchid Dental",
+    "M.G Dental",
     "dental clinic",
     "dentist Kathmandu",
-    "dentist Damak",
     "dental implants Kathmandu",
-    "dental implants Damak",
     "braces Kathmandu",
-    "braces Damak",
     "cosmetic dentistry Kathmandu",
-    "cosmetic dentistry Damak",
     "root canal Kathmandu",
-    "root canal Damak",
     "teeth whitening Kathmandu",
-    "teeth whitening Damak",
     "orthodontics Kathmandu",
-    "orthodontics Damak",
     "best dentist Kathmandu",
-    "best dentist Damak",
     "dental care Nepal",
     "oral surgery Kathmandu",
-    "oral surgery Damak",
     "family dentist Kathmandu",
-    "family dentist Damak",
     "tooth extraction Kathmandu",
-    "tooth extraction Damak",
     "dental checkup Kathmandu",
-    "dental checkup Damak",
     "gum treatment Kathmandu",
-    "gum treatment Damak",
     "pediatric dentist Kathmandu",
-    "pediatric dentist Damak",
     "affordable dental care Kathmandu",
-    "affordable dental care Damak",
     "emergency dental Kathmandu",
-    "emergency dental Damak",
     "dental hygiene Kathmandu",
-    "dental hygiene Damak",
-    "Orchid Dental Nepal"
+    "M.G Dental Nepal"
   ],
-  authors: [{ name: "Orchid Multispeciality Dental" }],
-  creator: "Orchid Multispeciality Dental",
-  publisher: "Orchid Multispeciality Dental",
-  metadataBase: new URL("https://www.orchidmultispecialitydental.com.np"),
+  authors: [{ name: "M.G Dental Clinic & Implant Centre" }],
+  creator: "M.G Dental Clinic & Implant Centre",
+  publisher: "M.G Dental Clinic & Implant Centre",
+  metadataBase: new URL("https://www.mgdental.com.np"),
   alternates: {
     canonical: "/",
   },
@@ -170,25 +153,25 @@ export const metadata: Metadata = {
   },
   manifest: '/favicon_io/site.webmanifest',
   openGraph: {
-    title: "Orchid Multispeciality Dental Clinic - Advanced Dental Care in Nepal",
-    description: "Expert dentists in Kathmandu & Damak offering dental implants, braces, root canals, cosmetic dentistry, and preventive care in a modern, patient-friendly clinic.",
+    title: "M.G Dental Clinic & Implant Centre - Advanced Dental Care in Nepal",
+    description: "Expert dentists in Kathmandu offering dental implants, braces, root canals, cosmetic dentistry, and preventive care in a modern, patient-friendly clinic.",
     type: "website",
     locale: "en_US",
     url: `${baseURL}`,
-    siteName: "Orchid Multispeciality Dental",
+    siteName: "M.G Dental Clinic & Implant Centre",
     images: [
       {
         url: `${baseURL}/images/preview.webp`,
         width: 1200,
         height: 630,
-        alt: "Orchid Multispeciality Dental Clinic Preview",
+        alt: "M.G Dental Clinic & Implant Centre Preview",
       }
     ],
   },
   category: "health",
   classification: "Dental Clinic",
   referrer: "origin-when-cross-origin",
-  applicationName: "Orchid Multispeciality Dental",
+  applicationName: "M.G Dental Clinic & Implant Centre",
   generator: "Next.js",
 };
 
@@ -238,14 +221,14 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <ActionBtn
+        {/* <ActionBtn
           ionIconLink="/#contact"
           ionIconName="calendar-outline"
           style={{ backgroundColor: "var(--bright-teal)" }}
           className="bottom-[120px]! md:bottom-[180px]!"
-        />
+        /> */}
         <ActionBtn
-          ionIconLink="https://wa.me/9779819239757"
+          ionIconLink="https://wa.me/9779742315141"
           ionIconName="logo-whatsapp"
           style={{ backgroundColor: "#46c754" }}
           className="bottom-[70px]! md:bottom-[130px]!"

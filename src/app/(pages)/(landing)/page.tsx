@@ -1,8 +1,8 @@
 import { About } from "@/components/About/About";
 // import { Appointment } from "@/components/Appointment/Appointment";
-import { Branch } from "@/components/Branch/Branch";
-import { CallToAction } from "@/components/CallToAction/CallToAction";
-// import { Dentist } from "@/components/Dentist/Dentist";
+// import { Branch } from "@/components/Branch/Branch";
+// import { CallToAction } from "@/components/CallToAction/CallToAction";
+import { Dentist } from "@/components/Dentist/Dentist";
 import { Facility } from "@/components/Facility/Facility";
 import { Hero } from "@/components/Hero/Hero";
 // import { Intro } from "@/components/Intro/Intro";
@@ -24,8 +24,8 @@ export default function Home() {
           {/* <Intro /> */}
           <Facility />
           <About />
-          {/* <Dentist /> */}
-          <Branch />
+          <Dentist />
+          {/* <Branch /> */}
           {/* <CallToAction /> */}
           {/* <TestimonialSlider /> */}
           <Review />

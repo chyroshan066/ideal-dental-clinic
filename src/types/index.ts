@@ -44,6 +44,7 @@ export interface Services extends Name, ImgSrc, Text, Href {
 export interface DentistType extends Name, ImgSrc {
     ionIcon?: IconType[];
     position: string;
+    position2: string;
 }
 
 export interface NavLink extends Name, Href {}

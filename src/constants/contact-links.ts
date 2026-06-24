@@ -12,13 +12,13 @@ export const CONTACTS: Contact[] = [
     //     textNumber: "023-564142 (Dhulabari)",
     // },
     {
-        href: "tel:+9779742315141",
+        href: "tel:+9779808877871",
         ionIcon: "call-outline",
-        textNumber: "9742315141",
+        textNumber: "9808877871",
     },
     {
-        href: "https://wa.me/9779742315141",
+        href: "https://wa.me/9779841032214",
         ionIcon: "logo-whatsapp",
-        textNumber: "9742315141",
+        textNumber: "9841032214",
     },
 ];

@@ -57,10 +57,10 @@ export const Footer = memo(() => (
                         href="/"
                         className={`${styles.logo}`}
                     >
-                        M.G Dental
+                        Ideal Dental
                     </Link>
                     <p className={styles.footerText}>
-                        Your trusted <strong>dental clinic in Kathmandu</strong> for <strong>dental implants</strong>, <strong>braces</strong>, <strong>cosmetic dentistry</strong>, <strong>root canal</strong>, <strong>teeth whitening</strong>, <strong>orthodontics</strong>, and <strong>family dental care</strong> at an affordable price. Visit <strong>M.G Dental Nepal</strong> for healthy smiles.
+                        Your trusted <strong>dental clinic in Boudha, Kathmandu</strong> for <strong>dental implants</strong>, <strong>braces</strong>, <strong>cosmetic dentistry</strong>, <strong>root canal</strong>, <strong>teeth whitening</strong>, <strong>orthodontics</strong>, and <strong>family dental care</strong> at an affordable price. Visit <strong>Ideal Dental Nepal</strong> for healthy smiles.
                     </p>
 
                     <div className={styles.schedule}>
@@ -69,7 +69,7 @@ export const Footer = memo(() => (
                         </div>
                         <span className={styles.span}>
                             Daily:<br />
-                            9:00 AM - 6:00 PM
+                            8:00 AM - 8:00 PM
                         </span>
                     </div>
 
@@ -98,7 +98,7 @@ export const Footer = memo(() => (
         <div className={styles.footerBottom}>
             <div className={styles.customContainer}>
                 <p className={styles.copyright}>
-                    &copy; {new Date().getFullYear()} All Rights Reserved by M.G Dental Clinic & Implant Centre.
+                    &copy; {new Date().getFullYear()} All Rights Reserved by Ideal Dental Care.
                 </p>
                 <SocialIcon
                     className="justify-center"

@@ -16,15 +16,15 @@ interface Statistics {
 
 const STATISTICS: Statistics[] = [
     {
-        title: "10,000+",
+        title: "1,000+",
         subTitle: "Happy Patients",
     },
     {
-        title: `${new Date().getFullYear() - 2017}+`,
+        title: `${new Date().getFullYear() - 2009}+`,
         subTitle: "Years Experience",
     },
     {
-        title: "5.0★",
+        title: "4.5★",
         subTitle: "Average Rating",
     },
 ]
@@ -272,7 +272,7 @@ export const TestimonialSlider = memo(() => {
     return (
         <>
             <section className="section">
-                <div className="custom-container">
+                <div className="custom-container -mt-50">
 
                     {/* Section Header */}
                     <div

@@ -137,7 +137,7 @@ export const Appointment = memo(() => {
                         <h2 className="headline-1 text-center">Book Appointment</h2>
                         <div className={`text-center ${styles.formText}`}>
                             <p>
-                                Booking request <a href="tel:+9779819239757" className={styles.link}>9819239757 </a>
+                                Booking request <a href="tel:+9779808877871" className={styles.link}>9808877871 </a>
                                 or fill out the appointment form
                             </p>
                         </div>
@@ -225,7 +225,7 @@ export const Appointment = memo(() => {
                                         </option>
                                     ))}
 
-                                    {[...Array(7)].map((_, index) => (
+                                    {[...Array(6)].map((_, index) => (
                                         <option
                                             key={index}
                                             value={`${index < 9 ? `0${1 + index}` : 1 + index}:00pm`}
@@ -270,25 +270,21 @@ export const Appointment = memo(() => {
                         <h2 className={`headline-1 text-center ${styles.headline1}`}>Contact Us</h2>
                         <p className={`contact-label ${styles.contactLabel}`}>Booking Request</p>
                         <a
-                            href="tel:+9779819239757"
+                            href="tel:+9779808877871"
                             className="body-1 contact-number hover-underline"
                         >
-                            9819239757
+                            9808877871
                         </a>
                         <div className={`separator ${styles.separator}`}></div>
                         <p className={`contact-label ${styles.contactLabel}`}>Location</p>
                         <address className={`body-4 ${styles.body4}`}>
-                            Suncity, Kageshwori Manohara,  <br />
+                            Boudha Road,  <br />
                             Kathmandu, Nepal
-                        </address>
-                        <address className={`body-4 ${styles.body4}`}>
-                            Namaste Hospital - First Floor,  <br />
-                            Damak, Jhapa, Nepal
                         </address>
                         <p className={`contact-label ${styles.contactLabel}`}>Daily</p>
                         <p className={`body-4 ${styles.body4}`}>
                             {/* Sunday to Friday <br /> */}
-                            9.00 am - 7.00pm
+                            9.00 am - 6.00pm
                         </p>
                     </div>
                 </div>

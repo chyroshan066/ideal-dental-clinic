@@ -1,16 +1,16 @@
 import { About } from "@/components/About/About";
-// import { Appointment } from "@/components/Appointment/Appointment";
+import { Appointment } from "@/components/Appointment/Appointment";
 // import { Branch } from "@/components/Branch/Branch";
 // import { CallToAction } from "@/components/CallToAction/CallToAction";
 import { Dentist } from "@/components/Dentist/Dentist";
 import { Facility } from "@/components/Facility/Facility";
 import { Hero } from "@/components/Hero/Hero";
-// import { Intro } from "@/components/Intro/Intro";
+import { Intro } from "@/components/Intro/Intro";
 import { Maps } from "@/components/Maps";
 import { Review } from "@/components/Review";
 import { Service } from "@/components/Service/Service";
 import { Stats } from "@/components/Stats";
-// import { TestimonialSlider } from "@/components/Testimonial/Testimonial";
+import { TestimonialSlider } from "@/components/Testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -18,16 +18,16 @@ export default function Home() {
       <main>
         <article>
           <Hero />
+          <Intro />
           <Stats />
           <Service />
-          {/* <Appointment /> */}
-          {/* <Intro /> */}
           <Facility />
           <About />
+          <Appointment />
           <Dentist />
           {/* <Branch /> */}
           {/* <CallToAction /> */}
-          {/* <TestimonialSlider /> */}
+          <TestimonialSlider />
           <Review />
           <Maps />
         </article>

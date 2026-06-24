@@ -17,14 +17,14 @@ export const SERVICES: Services[] = [
         href: "/#dental-crown",
         idStr: "dental-crown",
     },
-    {
-        id: 3,
-        imgSrc: "/images/service-icons/service-icon-39.webp",
-        name: "Prosthetic Eye",
-        text: "Custom ocular prosthetics to replace and restore absent or disfigured eyes.",
-        href: "/#prosthetic-eye",
-        idStr: "prosthetic-eye",
-    },
+    // {
+    //     id: 3,
+    //     imgSrc: "/images/service-icons/service-icon-39.webp",
+    //     name: "Prosthetic Eye",
+    //     text: "Custom ocular prosthetics to replace and restore absent or disfigured eyes.",
+    //     href: "/#prosthetic-eye",
+    //     idStr: "prosthetic-eye",
+    // },
     {
         id: 4,
         imgSrc: "/images/service-icons/service-icon-40.webp",

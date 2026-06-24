@@ -10,13 +10,13 @@ export const ContactColumn = memo(() => (
                 <IonIcon name="location-outline" />
             </div>
             <a
-                href="https://www.google.com/maps/place/M.G.+dental+clinic+and+implant+center/@27.6571565,85.3199586,16.69z/data=!4m6!3m5!1s0x39eb170015b800ed:0xa559e882c4265737!8m2!3d27.6572897!4d85.3220152!16s%2Fg%2F11mt4b6vsc?entry=ttu&g_ep=EgoyMDI2MDUxNy4wIKXMDSoASAFQAw%3D%3D"
+                href="https://www.google.com/maps/place/Ideal+dental+clicnic/@27.7206116,85.3605623,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb1bdaf24bcfc1:0x5390d884f64baa86!8m2!3d27.7206069!4d85.3631372!16s%2Fg%2F11b6lj7f0t?entry=ttu&g_ep=EgoyMDI2MDYyMS4wIKXMDSoASAFQAw%3D%3D"
                 className="footer-link"
                 target="_blank"
             >
                 <address className={styles.itemText}>
-                    Chapagaun Dobato <br />
-                    Lalitpur, Nepal
+                    Boudha Road <br />
+                    Kathmandu, Nepal
                 </address>
             </a>
         </li>
@@ -44,10 +44,10 @@ export const ContactColumn = memo(() => (
                 <IonIcon name="mail-outline" />
             </div>
             <a
-                href="mailto:mgdentalclinicandimplantcenter@gmail.com"
+                href="mailto:idealdentalcare61@gmail.com"
                 className="footer-link"
             >
-                mgdentalclinicandimplantcenter@gmail.com
+                idealdentalcare61@gmail.com
             </a>
         </li>
     </>

@@ -45,10 +45,10 @@ export const Header = memo(() => {
                         <li className={styles.contactItem}>
                             <IonIcon name="mail-outline" />
                             <a
-                                href="mailto:mgdentalclinicandimplantcenter@gmail.com"
+                                href="mailto:idealdentalcare61@gmail.com"
                                 className={styles.contactLink}
                             >
-                                mgdentalclinicandimplantcenter@gmail.com
+                                idealdentalcare61@gmail.com
                             </a>
                         </li>
 

@@ -16,11 +16,11 @@ const FACILITIES: Facility[] = [
         title: "Dental X-Ray",
         description: "State-of-the-art digital X-ray technology for precise diagnosis and treatment planning with minimal radiation exposure."
     },
-    {
-        icon: "flask-outline",
-        title: "Dental Lab",
-        description: "In-house dental laboratory ensuring quick turnaround for crowns, bridges, dentures and other prosthetic work."
-    },
+    // {
+    //     icon: "flask-outline",
+    //     title: "Dental Lab",
+    //     description: "In-house dental laboratory ensuring quick turnaround for crowns, bridges, dentures and other prosthetic work."
+    // },
     {
         icon: "analytics-outline",
         title: "Orthodontics & Implant Centre",

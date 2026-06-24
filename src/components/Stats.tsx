@@ -10,10 +10,10 @@ const STATS: Stats[] = [
         title: "Digital X-Ray",
         description: "90% Less Radiation",
     },
-    {
-        title: "In-House Lab",
-        description: "Same Day Service",
-    },
+    // {
+    //     title: "In-House Lab",
+    //     description: "Same Day Service",
+    // },
     {
         title: "Best Quality Root Canals",
         description: "Quick & Accurate Dental Procedures",
@@ -21,7 +21,7 @@ const STATS: Stats[] = [
 ];
 
 export const Stats = memo(() => (
-    <div className="custom-container mt-45">
+    <div className="custom-container mt-0">
 
         <div style={{
             display: 'grid',

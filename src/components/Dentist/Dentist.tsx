@@ -55,7 +55,11 @@ const DentistCard = memo(
 DentistCard.displayName = "DoctorCard";
 
 export const Dentist = memo(() => (
-  <section className={`section ${styles.doctor}`} aria-label="doctor">
+  <section
+    className={`section ${styles.doctor}`}
+    id="dentist"
+    aria-label="doctor"
+  >
     <div className="custom-container">
       <TitleHeader title={"Our Doctors"} subTitle={"Best Expert Dentist"} />
 
